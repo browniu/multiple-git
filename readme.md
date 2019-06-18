@@ -15,7 +15,7 @@
 ```config
 // 修改前
 [remote "origin"]
-    url = AAA
+    url = A.git
     fetch = +refs/heads/*:refs/remotes/origin/
 // 修改后
 [remote "origin"]
