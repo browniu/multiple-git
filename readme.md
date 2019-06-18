@@ -11,19 +11,21 @@
 * `git remote add origin A.git`
 
 * 修改`.git`目录下的`config`文件
+
 ```
 // 修改前
 [remote "origin"]
     url = AAA
     fetch = +refs/heads/*:refs/remotes/origin/
-    
 // 修改后
 [remote "origin"]
     url = A.git
     url = B.git
     fetch = +refs/heads/*:refs/remotes/origin/
 ```
+
 * git push origin master
+
 
 ## 注意
 
