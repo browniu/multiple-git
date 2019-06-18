@@ -23,10 +23,11 @@
     url = B.git
     fetch = +refs/heads/*:refs/remotes/origin/
 ```
+* git add . && git commit -m 'init'
 
-* git push origin master
+* git push --set-upstream origin master
 
-* 之后更改均可以使用 `git add . && git commit -m '+' && git push` 一键部署
+* 之后更改均可以使用 `git add . && git commit -m 'init' && git push` 一键部署
 
 ## 注意
 
