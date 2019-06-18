@@ -4,7 +4,7 @@
 
 ## 步骤
 
-* 分别在远程端建立项目得到远程地址`A.git`和`B.git`
+* 分别在远程端建立项目得到远程地址 `A.git` 和 `B.git`
 
 * 初始化git `git init`（已存在.git目录的可跳过此步骤）
 
@@ -12,7 +12,7 @@
 
 * 修改`.git`目录下的`config`文件
 
-```
+```config
 // 修改前
 [remote "origin"]
     url = AAA
