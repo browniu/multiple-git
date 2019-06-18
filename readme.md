@@ -26,6 +26,7 @@
 
 * git push origin master
 
+* 之后更改均可以使用 `git add . && git commit -m '+' && git push` 一键部署
 
 ## 注意
 
